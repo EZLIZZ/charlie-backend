@@ -4,7 +4,7 @@ import contactRoutes from "./routes/contact.routes.js"
 const app = express();
 app.use(
   cors({
-    origin: "https://portfolio-one-xi-kkjea6eq72.vercel.app/",
+    origin: "https://portfolio-one-xi-kkjea6eq72.vercel.app",
     credentials: true,
   })
 );
